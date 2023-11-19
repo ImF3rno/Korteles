@@ -1,0 +1,85 @@
+body {
+  background-color: #FFA500;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding-left: 15rem;
+  padding-right: 15rem;
+}
+
+@media (max-width: 991px) {
+  main {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 820px) and (max-height: 1180px) {
+  main {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  main {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+@media (width: 1024px) and (height: 1366px) {
+  main {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+.carousel-item {
+  height: 32rem;
+  background-color: #ffffff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  padding-top: 7rem;
+  padding-inline-start: 23rem;
+  padding-inline-end: 23rem;
+}
+.container > h3 {
+  color: #777;
+}
+.container > p {
+  color: #777;
+  font-weight: 600;
+}
+
+@media (max-width: 820px) and (max-height: 1180px) {
+  .container {
+    padding-inline-start: 180px;
+    padding-inline-end: 150px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    padding-inline-start: 10px;
+    padding-inline-end: 10px;
+  }
+}
+
+@media (width: 1024px) and (height: 1366px) {
+  .container {
+    padding-inline-start: 250px;
+    padding-inline-end: 200px;
+  }
+}
+
+.carousel-indicators > [data-bs-target] {
+  background-color: #000;
+}/*# sourceMappingURL=styles.css.map */
